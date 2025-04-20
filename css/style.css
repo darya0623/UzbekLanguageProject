@@ -2,9 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Pixelify Sans", sans-serif;
+    text-decoration: none;
+    font-family: "Yeseva One", serif
 }
 
  .body {
-    background: linear-gradient(rgb(86, 190, 255), rgb(100, 255, 100));
+    background: #F4EBD9;
+    color: #005F73;
     height: 100vh;}
+    
+    .container{
+        margin: 50px;
+    }
+
+    .header-title {
+        font-size: 48px;
+    }
