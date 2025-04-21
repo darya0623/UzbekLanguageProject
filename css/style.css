@@ -17,4 +17,34 @@
 
     .header-title {
         font-size: 48px;
+        transition: all 1s;
+    }
+
+    .header-title:hover {
+        font-size: 50px;
+    }
+
+    .desc-wrap{
+        display: inline;
+    }
+
+    .desc-wrap-wrap{
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .main-wrap {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+
+
+    .main-img{
+       box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);;
+       transition: all 1s;
+    }
+
+    .main-img:hover{
+        width: 550px;
     }
