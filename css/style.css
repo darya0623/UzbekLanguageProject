@@ -32,11 +32,22 @@
 
     .desc-text {
         font-size: 24px;
+        transition: all 0.5s;
+    }
+
+    .desc-text:last-child {
+        margin-top: 24px;
+        font-size: 24px;
+        transition: all 0.5s;
+    }
+
+    .desc-text:hover{
+        color: #00aed1;
     }
 
     .desc-list {
         width: 700px;
-    font-size: 20px;
+    font-size: 19px;
     }
     .desc-wrap-wrap{
         display: flex;
@@ -61,4 +72,20 @@
     .main-img:hover{
         width: 550px;
     
+    }
+
+    .main-img:first-child:hover{
+        width: 500px;
+    
+    }
+
+
+    .list-item{
+        padding: 4px;
+        transition: all 0.5s;
+    }
+    .list-item:hover{
+        color: #00aed1;
+        padding:  8px;
+        font-size: 20px;
     }
