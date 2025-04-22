@@ -22,29 +22,43 @@
 
     .header-title:hover {
         font-size: 50px;
+        color: #00aed1;
     }
 
     .desc-wrap{
         display: inline;
+       
     }
 
+    .desc-text {
+        font-size: 24px;
+    }
+
+    .desc-list {
+        width: 700px;
+    font-size: 20px;
+    }
     .desc-wrap-wrap{
         display: flex;
-        margin-top: 10px;
+        margin-top: 24px;
+        justify-content: space-between;
+
     }
 
     .main-wrap {
-        display: flex;
+
         flex-direction: row;
         column-gap: 10px;
     }
 
 
     .main-img{
-       box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);;
+       box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+       display: flex;
        transition: all 1s;
     }
 
     .main-img:hover{
         width: 550px;
+    
     }
